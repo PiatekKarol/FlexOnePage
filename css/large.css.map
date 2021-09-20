@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,OAAO,CAAA;EACH,gBAAgB,ECIE,wEAAwE,EDJnD,wBAAwB;CAElE",
+    "sources": [
+        "../sass/large.scss",
+        "../sass/_colors.scss"
+    ],
+    "names": [],
+    "file": "large.css"
+}

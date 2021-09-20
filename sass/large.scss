@@ -1,0 +1,7 @@
+// 
+@import './colors';
+
+.header{
+    background-image:$light-blue-gradient, url(../img/calc1920.jpg);
+    // @include heroImage("../img/calc1920.jpg");
+}
