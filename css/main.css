@@ -92,8 +92,17 @@ body {
           align-items: center;
   height: 100vh;
   width: 100%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 0.5s cubic-bezier(0.6, 0.05, 0.2, 1);
+  transition: 0.5s cubic-bezier(0.6, 0.05, 0.2, 1);
   z-index: 10;
-  background-image: linear-gradient(45deg, #1469f1, #2a0ab8);
+  background-image: linear-gradient(45deg, #548ec4, #0f0e64);
+}
+
+.nav--active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .nav__item {
@@ -133,7 +142,7 @@ body {
   background: none;
   border: 1px solid transparent;
   cursor: pointer;
-  z-index: 10;
+  z-index: 15;
 }
 
 .burger-btn:focus {
@@ -178,6 +187,33 @@ body {
           transition-delay: .1;
 }
 
+@-webkit-keyframes navItemsAnimation {
+  from {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes navItemsAnimation {
+  from {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.nav-items-animation {
+  -webkit-animation: navItemsAnimation 1s both;
+          animation: navItemsAnimation 1s both;
+}
+
 .header {
   position: relative;
   display: -webkit-box;
@@ -197,7 +233,7 @@ body {
   height: 75vh;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(45deg, rgba(8, 196, 243, 0.61), rgba(31, 40, 163, 0.75)), url("../img/calc640.jpg");
+  background-image: linear-gradient(45deg, rgba(8, 29, 61, 0.61), rgba(29, 65, 112, 0.75)), url("../img/calc640.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

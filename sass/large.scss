@@ -5,3 +5,23 @@
     background-image:$light-blue-gradient, url(../img/calc1920.jpg);
     // @include heroImage("../img/calc1920.jpg");
 }
+
+.burger-btn{
+    display: none;
+}
+
+.nav{
+    height: 7vh;
+    transform: translateX(0);
+    justify-content: flex-end;
+
+    &__item{
+        display: inline-block;
+        font-size: 1.8rem;
+        
+    }
+
+    &__items{
+        margin-right: 30px;
+    }
+}

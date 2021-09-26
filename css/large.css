@@ -1,4 +1,26 @@
 .header {
-  background-image: linear-gradient(45deg, rgba(8, 196, 243, 0.61), rgba(31, 40, 163, 0.75)), url(../img/calc1920.jpg);
+  background-image: linear-gradient(45deg, rgba(8, 29, 61, 0.61), rgba(29, 65, 112, 0.75)), url(../img/calc1920.jpg);
+}
+
+.burger-btn {
+  display: none;
+}
+
+.nav {
+  height: 7vh;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav__item {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+.nav__items {
+  margin-right: 30px;
 }
 /*# sourceMappingURL=large.css.map */
