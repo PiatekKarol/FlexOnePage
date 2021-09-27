@@ -59,6 +59,20 @@
           transform-origin: left;
 }
 
+.section-heading {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: #1755e7;
+  letter-spacing: 1px;
+}
+
+.section-padding {
+  padding: 4em 2em;
+}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -265,5 +279,54 @@ body {
 
 .header__btn::before {
   background-color: #eee;
+}
+
+.offers__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offers__img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.offers__text {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.offers__text li {
+  margin-bottom: 1rem;
+}
+
+.pageIcon__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pageIcon__img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.third-icon, .fourth-icon {
+  height: 90px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -25,3 +25,31 @@
         margin-right: 30px;
     }
 }
+
+.offers{
+    &__box{
+        flex-direction: row;
+        justify-content: space-between;
+
+        &-text{
+            width: 60%;
+        }
+        &-img{
+            width: 35%;
+        }
+    }
+}
+
+.pageIcon{
+    &__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+}
+.fourth-icon{
+    height: 100px;
+}
+

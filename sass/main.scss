@@ -172,5 +172,50 @@ body{
     }
 }
 
-// MEDIA
+
+// MAIN - OFFERTS
+.offers{
+    &__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    
+    &__text{
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        
+        & li{
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+
+.pageIcon{
+    &__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    }
+
+    &__img{
+        width: 100%;
+        margin-bottom: 1em;
+
+        
+    }
+
+}
+.third-icon, .fourth-icon{
+    height: 90px;
+}
+
 
