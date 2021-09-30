@@ -6,8 +6,15 @@
   display: none;
 }
 
+.scroll-fix::before {
+  display: block;
+  margin-top: -30px;
+  height: 80px;
+  content: '';
+}
+
 .nav {
-  height: 7vh;
+  height: 80px;
   -webkit-transform: translateX(0);
           transform: translateX(0);
   -webkit-box-pack: end;
