@@ -201,6 +201,11 @@ body {
           transition-delay: .1;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
 @-webkit-keyframes navItemsAnimation {
   from {
     -webkit-transform: translateX(200%);
@@ -259,8 +264,7 @@ body {
 }
 
 .header__text {
-  font-family: 'Dancing Script';
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   font-weight: 300;
 }
 
@@ -298,7 +302,6 @@ body {
 
 .offers__text {
   font-size: 1.8rem;
-  text-transform: capitalize;
 }
 
 .offers__text li {
@@ -310,7 +313,7 @@ body {
 }
 
 .contact__text li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

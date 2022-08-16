@@ -1,1 +1,14 @@
-// 
+.header{
+
+    &__heading{
+        // font-family: 'Roboto';
+        font-size: 3.8rem;
+        font-weight: 600;
+    }
+
+    &__text{
+        // font-family: 'Roboto';
+        font-size: 4.2rem;
+        font-weight: 300;
+    }
+}// 

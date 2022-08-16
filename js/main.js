@@ -1,5 +1,6 @@
 const nav = document.querySelector('.nav');
 const navBtn = document.querySelector('.burger-btn');
+const navBtnBars = document.querySelector('.burger-btn__bars');
 const allNavItems = document.querySelectorAll('.nav__item')
 
 const handleNav = () => {
@@ -24,3 +25,13 @@ const handleNavItemsAnimation = () => {
 }
 
 navBtn.addEventListener('click', handleNav)
+
+function addShadow() {
+    if (nav.classList.contains('nav--active')) {
+        navBtn.classList.remove('shadow-bg');
+    } else if (window.scrollY >= 800) {
+        navBtn.classList.add('shadow-bg');
+    }else{navBtn.classList.remove('shadow-bg')}
+}
+
+window.addEventListener('scroll', addShadow);
