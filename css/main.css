@@ -89,7 +89,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   background-color: #fff;
-  height: 400vh;
+  height: 100%;
 }
 
 .nav {
@@ -303,6 +303,25 @@ body {
 
 .offers__text li {
   margin-bottom: 1rem;
+}
+
+.contact__text {
+  font-size: 1.8rem;
+}
+
+.contact__text li {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+}
+
+.contact__text li a {
+  color: black;
 }
 
 .pageIcon__box {
