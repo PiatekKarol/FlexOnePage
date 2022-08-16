@@ -17,7 +17,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     background-color: $pure-white;
-    height: 400vh;
+    height: 100%;
 }
 
 
@@ -192,6 +192,28 @@ body{
         
         & li{
             margin-bottom: 1rem;
+        }
+    }
+}
+
+.contact{
+    &__box{
+        // display: flex;
+        // justify-content: center;
+    }
+    &__text{
+        font-size: 1.8rem;
+        
+
+        & li{
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            color: black;
+
+            & a{
+                color: black;
+            }
         }
     }
 }
